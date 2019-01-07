@@ -4,9 +4,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.humingfeng</groupId>
-    <artifactId>eureka-server-first</artifactId>
+    <artifactId>eureka-client-first</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>eureka-server-first</name>
+    <name>eureka-client-first</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>

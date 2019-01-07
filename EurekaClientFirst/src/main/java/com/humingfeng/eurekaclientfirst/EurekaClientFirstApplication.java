@@ -1,4 +1,4 @@
-package com.humingfeng.eurekaserverfirst;
+package com.humingfeng.eurekaclientfirst;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
 @EnableEurekaClient
-public class EurekaServerFirstApplication {
+public class EurekaClientFirstApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(EurekaServerFirstApplication.class, args);
+        SpringApplication.run(EurekaClientFirstApplication.class, args);
     }
 
 }

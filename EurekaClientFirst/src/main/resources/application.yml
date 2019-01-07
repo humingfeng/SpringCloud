@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: eureka-server-first
+    name: eureka-client-first
 
 eureka:
   client:

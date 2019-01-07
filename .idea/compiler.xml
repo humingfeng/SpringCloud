@@ -6,20 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="EurekaClientFirst" />
         <module name="EurekaServer" />
-        <module name="EurekaServerFirst" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="EurekaClientFirst" target="1.8" />
       <module name="EurekaServer" target="1.8" />
-      <module name="EurekaServerFirst" target="1.8" />
       <module name="SpringCloud" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="EurekaClientFirst" options="-parameters" />
       <module name="EurekaServer" options="-parameters" />
-      <module name="EurekaServerFirst" options="-parameters" />
     </option>
   </component>
 </project>

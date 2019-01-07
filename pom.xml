@@ -18,7 +18,7 @@
 
     <modules>
         <module>EurekaServer</module>
-        <module>EurekaServerFirst</module>
+        <module>EurekaClientFirst</module>
     </modules>
 
     <properties>

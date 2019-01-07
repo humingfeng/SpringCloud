@@ -4,6 +4,8 @@
 |服务名 | 父级依赖 | 模块说明|
 |----|----|----        |
 |SpringCloud|无|为微服务提供统一的pom管理，以及通用组件|  
+|EurekaServer|SpringCloud|服务注册中心|  
+|EurekaClientFirst|SpringCloud|服务注册中心|  
 
 
 ---

@@ -6,13 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="eureka-client-first" />
+        <module name="eureka-server" />
         <module name="EurekaClientFirst" />
         <module name="EurekaServer" />
+        <module name="RestRibbon" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="eureka-client-first" target="1.8" />
+      <module name="eureka-server" target="1.8" />
       <module name="EurekaClientFirst" target="1.8" />
       <module name="EurekaServer" target="1.8" />
+      <module name="RestRibbon" target="1.8" />
       <module name="SpringCloud" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -20,6 +26,9 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="EurekaClientFirst" options="-parameters" />
       <module name="EurekaServer" options="-parameters" />
+      <module name="RestRibbon" options="-parameters" />
+      <module name="eureka-client-first" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
     </option>
   </component>
 </project>

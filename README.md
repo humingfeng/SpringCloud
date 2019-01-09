@@ -6,6 +6,8 @@
 |SpringCloud|无|为微服务提供统一的pom管理，以及通用组件|  
 |EurekaServer|SpringCloud|服务注册中心|  
 |EurekaClientFirst|SpringCloud|服务提供者|  
+|RestRibbon|SpringCloud|ribbon+restTemplate服务消费者| 
+|Feign|SpringCloud|伪Http客户端feign服务消费者| 
 
 
 ---

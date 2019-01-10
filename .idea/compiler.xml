@@ -6,8 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka-client-first" />
-        <module name="eureka-server" />
         <module name="EurekaClientFirst" />
         <module name="EurekaServer" />
         <module name="feign" />
@@ -16,8 +14,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="eureka-client-first" target="1.8" />
-      <module name="eureka-server" target="1.8" />
       <module name="EurekaClientFirst" target="1.8" />
       <module name="EurekaServer" target="1.8" />
       <module name="Feign" target="1.8" />
@@ -32,8 +28,6 @@
       <module name="EurekaServer" options="-parameters" />
       <module name="Feign" options="-parameters" />
       <module name="RestRibbon" options="-parameters" />
-      <module name="eureka-client-first" options="-parameters" />
-      <module name="eureka-server" options="-parameters" />
       <module name="feign" options="-parameters" />
     </option>
   </component>

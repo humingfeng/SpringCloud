@@ -7,10 +7,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/EurekaServer/pom.xml" />
         <option value="$PROJECT_DIR$/EurekaServerFirst/pom.xml" />
         <option value="$PROJECT_DIR$/RestRibbon/pom.xml" />
-        <option value="$PROJECT_DIR$/Feign/pom.xml" />
+        <option value="$PROJECT_DIR$/EurekaClientFirst/pom.xml" />
       </list>
     </option>
   </component>

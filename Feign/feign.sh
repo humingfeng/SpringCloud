@@ -18,6 +18,6 @@ docker run -d -p 8765:8080 --name feign feign:$version
 #rm -f Dockerfile
 #删除之前的同名镜像
 imagesid==$(docker images feign:$version -q)
-if [ "imagesid" != "" ]; then
+if [ "$imagesid" != "" ]; then
 docker rmi -f $imagesid
 fi

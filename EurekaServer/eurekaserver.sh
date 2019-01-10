@@ -18,6 +18,6 @@ docker run -d -p 8761:8080 --name eurekaserver eurekaserver:$version
 #rm -f Dockerfile
 #删除之前的同名镜像
 imagesid==$(docker images eurekaserver:$version -q)
-if [ "imagesid" != "" ]; then
+if [ "$imagesid" != "" ]; then
 docker rmi -f $imagesid
 fi

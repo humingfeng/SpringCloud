@@ -18,6 +18,6 @@ docker build -t feign:$version -f /home/jenkins/Feign/Dockerfile .
 #推送docker镜像
 #docker push $DOCKER_REGISTRY$IMAGE_NAME
 #启动docker 容器
-docker run -d -p 8765:8080 --name feign feign:$version
+docker run -d -p 8765:8765 --name feign feign:$version
 #删除 Dockerfile 文件
 #rm -f Dockerfile

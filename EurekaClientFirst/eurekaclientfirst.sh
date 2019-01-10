@@ -18,6 +18,6 @@ docker build -t eurekaclientfirst:$version -f /home/jenkins/EurekaClientFirst/Do
 #推送docker镜像
 #docker push $DOCKER_REGISTRY$IMAGE_NAME
 #启动docker 容器
-docker run -d -p 8762:8080 --name eurekaclientfirst eurekaclientfirst:$version
+docker run -d -p 8762:8762 --name eurekaclientfirst eurekaclientfirst:$version
 #删除 Dockerfile 文件
 #rm -f Dockerfile

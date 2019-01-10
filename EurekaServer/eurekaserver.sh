@@ -18,6 +18,6 @@ docker build -t eurekaserver:$version -f /home/jenkins/EurekaServer/Dockerfile .
 #推送docker镜像
 #docker push $DOCKER_REGISTRY$IMAGE_NAME
 #启动docker 容器
-docker run -d -p 8761:8080 --name eurekaserver eurekaserver:$version
+docker run -d -p 8761:8761 --name eurekaserver eurekaserver:$version
 #删除 Dockerfile 文件
 #rm -f Dockerfile

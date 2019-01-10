@@ -17,7 +17,7 @@ docker run -d -p 8762:8080 --name eurekaclientfirst eurekaclientfirst:$version
 #删除 Dockerfile 文件
 #rm -f Dockerfile
 #删除之前的同名镜像
-imagesid==$(docker images -f before=eurekaclientfirst:$version -q)
+imagesid==$(docker images eurekaclientfirst:$version -q)
 if [ "imagesid" != "" ]; then
 docker rmi -f $imagesid
 fi

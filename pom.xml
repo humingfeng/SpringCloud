@@ -19,6 +19,8 @@
     <modules>
         <module>EurekaServer</module>
         <module>EurekaClientFirst</module>
+        <module>RestRibbon</module>
+        <module>Feign</module>
     </modules>
 
     <properties>

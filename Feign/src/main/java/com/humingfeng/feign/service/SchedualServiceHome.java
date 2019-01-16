@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @Version 1.0
  **/
 
-@FeignClient(value = "eureka-client-first")
+@FeignClient(value = "eureka-client-first",fallback = SchedualServiceHomeHystrix.class)
 public interface SchedualServiceHome {
 
     @RequestMapping(value = "/home",method = RequestMethod.GET)

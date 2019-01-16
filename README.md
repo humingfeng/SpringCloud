@@ -8,7 +8,7 @@
 |EurekaClientFirst|SpringCloud|服务提供者|  
 |RestRibbon|SpringCloud|ribbon+restTemplate服务消费者| 
 |Feign|SpringCloud|伪Http客户端feign服务消费者| 
-
+|Hystrix|SpringCloud|断路器| 
 
 ---
 
@@ -19,3 +19,5 @@
 关注公众号：开发者的花花世界
 
 ![](https://img-blog.csdnimg.cn/20190106225239166.jpg)
+
+---

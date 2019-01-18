@@ -11,6 +11,7 @@
         <module name="feign" />
         <module name="Feign" />
         <module name="RestRibbon" />
+        <module name="Zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +21,7 @@
       <module name="feign" target="1.8" />
       <module name="RestRibbon" target="1.8" />
       <module name="SpringCloud" target="1.8" />
+      <module name="Zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -28,6 +30,7 @@
       <module name="EurekaServer" options="-parameters" />
       <module name="Feign" options="-parameters" />
       <module name="RestRibbon" options="-parameters" />
+      <module name="Zuul" options="-parameters" />
       <module name="feign" options="-parameters" />
     </option>
   </component>

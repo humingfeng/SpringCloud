@@ -21,6 +21,7 @@
         <module>EurekaClientFirst</module>
         <module>RestRibbon</module>
         <module>Feign</module>
+        <module>Zuul</module>
     </modules>
 
     <properties>

@@ -22,6 +22,8 @@
         <module>RestRibbon</module>
         <module>Feign</module>
         <module>Zuul</module>
+        <module>ConfigServer</module>
+        <module>ConfigClient</module>
     </modules>
 
     <properties>

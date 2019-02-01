@@ -10,6 +10,7 @@
 |Feign|SpringCloud|伪Http客户端feign服务消费者| 
 |Hystrix|SpringCloud|断路器| 
 |Zuul|SpringCloud|路由网关| 
+|Config|SpringCloud|分布式服务配置中心| 
 
 ---
 

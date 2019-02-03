@@ -14,7 +14,7 @@ docker rmi -f $imagesid
 fi
 #构建docker 镜像
 version=$(date +%Y%m%d)
-docker build -t configserver:$version -f /home/jenkins/configServer/Dockerfile .
+docker build -t configserver:$version -f /home/jenkins/ConfigServer/Dockerfile .
 #推送docker镜像
 #docker push $DOCKER_REGISTRY$IMAGE_NAME
 #启动docker 容器

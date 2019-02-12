@@ -24,6 +24,7 @@
         <module>Zuul</module>
         <module>ConfigServer</module>
         <module>ConfigClient</module>
+        <module>ZipkinServer</module>
     </modules>
 
     <properties>

@@ -12,6 +12,7 @@
 |Zuul|SpringCloud|路由网关| 
 |Config|SpringCloud|分布式服务配置中心| 
 |SpringCloudBus|SpringCloud|消息总线| 
+|SpringCloudSleuth|SpringCloud|服务链路追踪| 
 
 ---
 

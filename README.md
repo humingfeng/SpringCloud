@@ -13,6 +13,8 @@
 |Config|SpringCloud|分布式服务配置中心| 
 |SpringCloudBus|SpringCloud|消息总线| 
 |SpringCloudSleuth|SpringCloud|服务链路追踪| 
+|Hystrix Dashboard|SpringCloud|断路器监控| 
+|未完待续 ||| 
 
 ---
 
